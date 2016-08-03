@@ -20,7 +20,8 @@
     {
         if (i % 3 == 0)
             NSLog(@"Fizz");
-        
+        else if (i % 5 == 0)
+            NSLog(@"Buzz");
         else
             NSLog(@" %d ", i);
     }
