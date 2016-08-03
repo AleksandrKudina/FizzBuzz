@@ -18,7 +18,9 @@
     [super viewDidLoad];
     for (int i = 1; i <= 100; i++)
     {
-        if (i % 3 == 0)
+        if (i % 3 == 0 && i % 5 == 0)
+            NSLog(@"FizzBuzz");
+        else if (i % 3 ==0)
             NSLog(@"Fizz");
         else if (i % 5 == 0)
             NSLog(@"Buzz");
