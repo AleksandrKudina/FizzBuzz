@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    for (int i = 1; i <= 100; i++)
+    {
+        if (i % 3 == 0)
+            NSLog(@"Fizz");
+        
+        else
+            NSLog(@" %d ", i);
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
